@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+.foto {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; 
+  
+}
+.contenedor-cv {
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+}
+.header h1 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 22px;
+}
+.seccion {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #eeeeee;
+}
+.seccion h2 {
+  color: #2980b9;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.contacto p {
+  margin: 5px 0;
+}
+ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+li {
+  margin-bottom: 5px;
+}
